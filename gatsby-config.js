@@ -7,11 +7,21 @@ module.exports = {
     {
       resolve: "gatsby-source-contentful",
       options: {
-        accessToken: "jiWWHtmCE8gaMGvRHiaAicAHIC69xrgGprDLSXjZAAk",
+        accessToken: "4nDkqfI6N56xWzxHvH32J5Vkl9mBhTrVOKxfabXkjX0",
         spaceId: "0tb5bz3k9bxq",
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      }
+    },
     "gatsby-plugin-sass",
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-google-analytics",

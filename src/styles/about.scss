@@ -1,0 +1,39 @@
+@import "./global.scss";
+
+.gatsby-image-wrapper img{
+    border-radius: .5rem !important;
+}
+
+.about__description{
+    text-align: center;
+    margin-bottom: $mb-2-5;
+}
+
+.about__info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: $mb-2-5;
+}
+
+.about__info-name{
+    font-size: $small-font-size;
+}
+.about__info-title{
+    color:$title-color;
+    font-size: $h2-font-size;
+    font-weight: $font-semi-bold;
+}
+
+.about__info-title,
+.about__info-name{
+    display: block;
+    text-align: center;
+}
+
+.about__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+
+

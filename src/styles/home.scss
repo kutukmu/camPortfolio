@@ -1,0 +1,79 @@
+@import "./global.scss";
+
+.home__blob{
+    width: 200px;
+}
+.home__container{
+    gap:1rem;
+}
+.home__content{
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+    align-items: center;
+}
+
+.home__social{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap:1rem;
+}
+
+.home__social-icon{
+    font-size: 1.25rem !important;
+    width: 20px;
+    height: 20px;
+    color:$first-color;
+}
+
+.home__social-icon:hover{
+    color:$first-color-alt;
+}
+
+.home__data{
+    grid-column:span 2;
+}
+
+.home__title{
+    font-size: $big-font-size;
+}
+
+.home__subtitle{
+    font-size:  $h3-font-size;
+    color: $text-color;
+    font-weight: $font-medium;
+    margin-bottom: $mb-0-75;
+}
+
+.home__description{
+    margin-bottom:$mb-2;
+}
+
+
+.home__scroll-button{
+    display: none;
+}
+
+.home__scroll-button{
+    color:$first-color;
+    transition: .3s;;
+}
+
+.home__scroll-button:hover{
+    transform: translateY(.25rem);
+}
+
+.home__scroll-mouse{
+    width: 30px;
+    height: 30px;
+}
+.home__scroll-name{
+    font-size: $small-font-size;
+    color:$title-color;
+    font-weight: $font-medium;
+    margin-right: $mb-0-25;
+}
+
+.home__scroll-arrow{
+    font-size: 1.25rem;
+}
+
