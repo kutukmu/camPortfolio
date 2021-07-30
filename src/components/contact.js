@@ -20,8 +20,7 @@ const Contact = () =>{
                             <span className="contact__subtitle">torrescam96@gmail.com</span>              
                         </div>
                     </div>
-                </div>
-                <div>
+               
                     <div className="contact__information">
                         <UilMapMarker  className="contact__icon"/>
                         <div>

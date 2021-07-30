@@ -62,6 +62,27 @@
     color: $first-color;
 }
 
+.nav-btns{
+     display: flex;
+     align-items: center;
+}
+
+.nav__icon{
+
+}
+
+.change-theme{
+    width: 25px;
+    height: 25px;
+    color:$title-color;
+    margin-right: $mb-1;
+    cursor: pointer;
+}
+.change-theme:hover{
+    color:$first-color;
+}
+
+
 
 .nav__close:hover{
     color:$first-color-alt;

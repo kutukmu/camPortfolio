@@ -1,10 +1,22 @@
-import React,{useRef, useEffect, useState} from 'react'
+import React,{useEffect, useState, useLayoutEffect} from 'react'
 import '../styles/header.scss'
-import { UilEstate, UilUser, UilFileAlt, UilApps, UilGraduationCap , UilBriefcaseAlt, UilScenery, UilMessage, UilTimes  } from '@iconscout/react-unicons'
+import { UilEstate, UilUser, UilFileAlt, UilApps, UilMoon ,UilGraduationCap , UilBriefcaseAlt, UilScenery, UilMessage, UilTimes  } from '@iconscout/react-unicons'
 
 const Header = () => {
 
     const [isOpen, setOpen] = useState(false)
+    const [theme, setTheme] = useState("light")
+    const themeToggler = () =>{
+        if(theme == "light"){
+            setTheme("dark")
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }else{
+            setTheme("light")
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+    }
+
+
     const [showMenu, setShowMenu] = useState('')
     const handleToggle = () =>{
         setOpen(!isOpen)
@@ -18,9 +30,10 @@ const Header = () => {
         }
     },[isOpen])
 
+    
 
     return (
-        <header className="header" id="header">
+        <header className="header" id="header" >
             <nav className="nav container">
                 <a href="#" className="nav__logo">Carmen</a>
                 <div className={`nav__menu ${showMenu}`} id="nav-menu" >
@@ -60,6 +73,7 @@ const Header = () => {
                     <UilTimes className="nav__close" id="nav-close" onClick={handleToggle}/>
                 </div>
                 <div className="nav-btns">
+                    <UilMoon className="change-theme" id="theme-button" onClick={themeToggler}/>
                     <div className="nav__toggle" onClick={handleToggle}>
                         <UilApps className="nav__icon"/>
                     </div>
