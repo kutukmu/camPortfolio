@@ -26,7 +26,7 @@ const Home = () => {
                     </div>
                     <div className="home__data">
                         <h1 className="home__title">Hi, I'm Carmen</h1>
-                        <h3 className="home__subtitle">Social Media Marketer</h3>
+                        <h3 className="home__subtitle">Bussiness Manager</h3>
                         <p className="home__description">High level experience in bussiness management, marketing and producing quality work </p>
                         <a href="#contact" className="button button--flex">
                             Contact Me <UilMessage className="button__icon"/> </a>

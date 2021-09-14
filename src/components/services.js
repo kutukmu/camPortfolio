@@ -14,7 +14,7 @@ const Services = () =>{
                 <div className="services__content">
                         <div>
                             <UilWebGrid className="services__icon"/>
-                            <h3 className="services__title">Squareup <br/> Integration</h3>
+                            <h3 className="services__title">Business <br/> Management</h3>
                         </div>
                         <span className="button button--flex button--small button--link services__button" onClick ={() => setModal(1)}>
                             View More
@@ -22,12 +22,12 @@ const Services = () =>{
                         </span>
                         <div className={`services__modal ${activeModal == 1 ? "active-modal":""}`}>
                             <div className="services__modal-content">
-                                <h4 className="services__modal-title">Squareup</h4>
+                                <h4 className="services__modal-title">Restaurant Manager</h4>
                                 <UilTimes className="services__modal-close" onClick ={() => setModal(0)}/>
                                 <ul className="services__modal-services grid">
                                     <li className="services__modal-service">
                                         <UilCheckCircle className="services__modal-icon"/>
-                                        <p>I integrate Squareup to your restaurant</p>
+                                        <p>I have experience in identifying and coming up with solutions to workplace problems</p>
                                     </li>
                                     <li className="services__modal-service">
                                         <UilCheckCircle className="services__modal-icon"/>

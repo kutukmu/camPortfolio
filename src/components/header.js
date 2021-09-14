@@ -72,12 +72,7 @@ const Header = () => {
                     </ul>
                     <UilTimes className="nav__close" id="nav-close" onClick={handleToggle}/>
                 </div>
-                <div className="nav-btns">
-                    <UilMoon className="change-theme" id="theme-button" onClick={themeToggler}/>
-                    <div className="nav__toggle" onClick={handleToggle}>
-                        <UilApps className="nav__icon"/>
-                    </div>
-                </div>
+                
             </nav>
         </header>
     )

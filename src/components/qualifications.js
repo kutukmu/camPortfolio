@@ -52,11 +52,11 @@ const Qualifications  =() =>{
                             </div>
                             
                             <div>
-                                <h3 className="qualification__title">Universidad de Guanajuato</h3>
-                                <span className="qualification__subtitle">Tourist Resource Management</span>
+                                <h3 className="qualification__title">Restaurant Owner</h3>
+                                <span className="qualification__subtitle">La Cochata</span>
                                 <div className="qualification__calendar">
                                     <UilCalendarAlt className="calender__icon"/>
-                                    2017 - 2021
+                                    2019 - 2020
                                 </div>
                             </div>
                             

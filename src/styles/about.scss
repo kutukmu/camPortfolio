@@ -11,8 +11,11 @@
 
 .about__info{
     display: flex;
-    justify-content: space-evenly;
     margin-bottom: $mb-2-5;
+}
+
+.about__info div{
+    margin-right:1rem;
 }
 
 .about__info-name{

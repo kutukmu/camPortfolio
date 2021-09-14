@@ -12,24 +12,21 @@ const About = () =>{
                 <StaticImage src="../images/ocean.PNG" className="about__image"/>
                 <div className="about__data">
                     <p className="about__description">
-                        I have a passion for social media marketing and a relentless drive for continuous improvement in all of my endeavors. 
+                        I have a passion for bussiness management and a relentless drive for continuous improvement in all of my endeavors. 
                     </p>
                     <div className="about__info">
                         <div>
-                            <span className="about__info-title">+3</span>
+                            <span className="about__info-title">+1</span>
                             <span className="about__info-name">Years <br/> experience</span>
                         </div>
+                        
                         <div>
-                            <span className="about__info-title">+3</span>
-                            <span className="about__info-name">Completed <br/> project</span>
-                        </div>
-                        <div>
-                            <span className="about__info-title">+3</span>
+                            <span className="about__info-title">+1</span>
                             <span className="about__info-name">Companies <br/> worked</span>
                         </div>
                     </div>
                     <div className="about__buttons">
-                        <a className="button button--flex">Download <UilDownloadAlt className="button__icon"/> </a>
+                        <a className="button button--flex" style={{cursor:"pointer"}}>Download <UilDownloadAlt className="button__icon"/> </a>
                     </div>
                 </div>
             </div>
