@@ -22,7 +22,7 @@ const Services = () =>{
                         </span>
                         <div className={`services__modal ${activeModal == 1 ? "active-modal":""}`}>
                             <div className="services__modal-content">
-                                <h4 className="services__modal-title">Restaurant Manager</h4>
+                                <h4 className="services__modal-title">Restaurant Owner</h4>
                                 <UilTimes className="services__modal-close" onClick ={() => setModal(0)}/>
                                 <ul className="services__modal-services grid">
                                     <li className="services__modal-service">
