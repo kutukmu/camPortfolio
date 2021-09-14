@@ -34,7 +34,7 @@ const Skills = () =>{
                             <div className={`skills__list ${skillToggle} grid`}>
                                 <div className="skills__data">
                                     <div className="skills__title">
-                                        <h3 className="skills__name">Photoshop</h3>
+                                        <h3 className="skills__name">Square</h3>
                                         <span className="skill__number">100%</span>
                                     </div>
                                     <div className="skills__bar">

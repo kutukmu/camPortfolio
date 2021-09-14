@@ -53,7 +53,7 @@ const Qualifications  =() =>{
                             
                             <div>
                                 <h3 className="qualification__title">Restaurant Owner</h3>
-                                <span className="qualification__subtitle">La Cochata</span>
+                                <span className="qualification__subtitle">La Cocherita</span>
                                 <div className="qualification__calendar">
                                     <UilCalendarAlt className="calender__icon"/>
                                     2019 - 2020
